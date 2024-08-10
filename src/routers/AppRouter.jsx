@@ -15,7 +15,7 @@ function AppRouter() {
 
   const main = createBrowserRouter([
     {
-      path: "/",
+      path: "/result-summary",
       element: <Layout />,
       children: [{ index: true, element: <Result_component/> }],
     },
